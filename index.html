@@ -19,36 +19,47 @@
            text-align: center;
 
        }
-        #quote {
+        blockquote {
             font-size: 20px;
             text-align: center;
             padding-bottom: 15px;
         }
         #img-div {
-            background-color: white;
-            padding-left: 20px;
+            background-color: aliceblue;
+
             margin-left: 10px;
             margin-right: 10px;
+            text-align: center;
+            line-height:300px;
         }
          #image {
-             background-color: white;
-             height: 500px;
-             width: 800px;
-             margin-left: 500px;
+             height: auto;
+             width: 50%;
+             max-width: 100%;
+             margin-left: auto;
+             margin-right: auto;
              padding: 40px;
+             display: block;
+             vertical-align:middle;
+
          }
         #img-caption {
             text-align: center;
             font-size: 20px;
             padding-bottom: 20px;
         }
-        #tribute-start {
-            font-size: 25px;
-            font-family: "Arial Black",serif;
+        h2{
+            font-size: 35px;
             text-align: center;
         }
-        #history {
+        #tribute-info {
             padding-left: 25%;
+        }
+        a {
+
+            padding-left: 30%;
+            font-size: 25px;
+
         }
 
 
@@ -56,25 +67,23 @@
 
 </head>
 <body>
-<main>
+<main id="main">
 
 <div id="topInfo"><h1 id="title">Winnie the Pooh</h1>
-    <p id="quote">“Love is taking a few steps backward, maybe even more…
+    <blockquote>“Love is taking a few steps backward, maybe even more…
     <br>to give way to the happiness of the person you love.”
-    <br>—Winnie-the-Pooh</p></div>
+    <br>—Winnie-the-Pooh</blockquote></div>
 
     <div id="img-div">
-        <img src="pooh.jpeg" id="image"  alt="Winnie the Pooh Honey picture"/>
+        <img src="http://1.bp.blogspot.com/_LaV7iL5OuNc/S71DlJstYvI/AAAAAAAAA1I/01ruwzWcSsg/s1600/Winnie-the-Pooh.jpg" id="image"  alt="Winnie the Pooh Honey picture"/>
         <p id="img-caption">Pooh eating bear honey!</p>
     </div>
 
-    <p id="tribute-start">Here's a little info about Winnie the Pooh:</p>
+    <h2 id="tribute-start">Here's a little info about Winnie the Pooh:</h2>
         <br>
-    <div id="history">
+    <div id="tribute-info">
     <ul>
-
             <li>1920 Christopher Robin Milne born.<br/><br/></li>
-
             <li>1921 20"-high teddy bear (Winnie-the-Pooh), from Harrods, given to Christopher Robin on his first birthday.<br/><br/></li>
             <li>1924 When We Were Very Young published.<br/><br/></li>
             <li>1925 Pooh first appeared in the London Evening News on Christmas Eve 1925 in a story called "The Wrong Sort of Bees."<br/><br/></li>
@@ -89,12 +98,11 @@
             <li>1987 Presentation of the real Pooh and friends to The New York Public Library, where they are put on display for the public.<br/><br/></li>
             <li>1988 The real Pooh and friends receive professional conservation treatment that includes vacuuming and assorted repairs.<br/><br/></li>
             <li>1998 Pooh and his friends become the center of international attention when a British Member of Parliament decides they should be returned to England.<br/><br/></li>
-
         </ul>
         <br>
     </div>
-
-
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Winnie-the-Pooh" target="_blank">Click her for more information on the famous bear!</a>
+    <br/><br/>
 </main>
 </body>
 </html>
